@@ -4,7 +4,7 @@ const BLOG = {
   BIO: '一个不知名的路人', // 作者简介
   LINK: 'https://louisk.com', // 网站地址
   KEYWORDS: 'notion, 博客', // 网站关键词 英文逗号隔开
-  NOTION_PAGE_ID: 71aa7467a22a413e8a4d57992571fbdb,
+  NOTION_PAGE_ID: '71aa7467a22a413e8a4d57992571fbdb',
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
