@@ -1,11 +1,10 @@
 // 注: process.env.XX是Vercel的环境变量，配置方式见：https://docs.tangly1024.com/zh/features/personality
 const BLOG = {
-  AUTHOR: 'tangly1024', // 作者
-  BIO: '一个普通的干饭人🍚', // 作者简介
-  LINK: 'https://tangly1024.com', // 网站地址
-  KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
-  NOTION_PAGE_ID:
-  process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
+  AUTHOR: 'Louis K', // 作者
+  BIO: '一个不知名的路人', // 作者简介
+  LINK: 'https://louisk.com', // 网站地址
+  KEYWORDS: 'notion, 博客', // 网站关键词 英文逗号隔开
+  NOTION_PAGE_ID: 71aa7467a22a413e8a4d57992571fbdb,
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
